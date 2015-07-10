@@ -18,8 +18,8 @@ The project consists of two files, a Python module (tournament.py) and a Postgre
 * Python 2.7.x
 * Psycopg2 (Python Library)
 * Bleach (Python Library)
-* Installation and configuration of PostgreSQL 9.x
+* PostgreSQL 9.x
+* The files contained in this repository
 
 **Running and Testing This Project**
 
-Loading the tournament.sql file into your PostgreSQL database server will initialize the necessary database and tables for the Swiss Tournament. After the database has been initialized, the functionality of the tournament.py module can be tested by running the tournament_test.py module in Python 2.7.x. 
