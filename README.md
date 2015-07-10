@@ -23,3 +23,7 @@ The project consists of two files, a Python module (tournament.py) and a Postgre
 
 **Running and Testing This Project**
 
+From a command line, first change into the directory where the project files are stored. (For this example, we will assume they are in `/home/user/Tournament`)
+
+- `cd /home/user/Tournament`
+
