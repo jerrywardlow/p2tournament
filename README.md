@@ -13,3 +13,9 @@ The project consists of two files, a Python module (tournament.py) and a Postgre
 
 ### Using This Project
 
+**Prerequisites in a Linux Environment:**
+
+* Python 2.7.x
+* Psycopg2 (Python Library)
+* Bleach (Python Library)
+* Installation and configuration of PostgreSQL 9.x
