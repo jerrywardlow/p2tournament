@@ -40,7 +40,7 @@ Now that we have generated our `tournament` PostgreSQL database, we can test the
 
 - `python tournament_test.py`
 
-This will produce a wonderful success message letting us know that we actually understand what we are doing.
+This will produce a wonderful success message letting us know that we have properly generated our PostgreSQL database and that our `tournament.py` module meets all the functionality requirements.
 
 - `1. Old matches can be deleted.`
 - `2. Player records can be deleted.`
