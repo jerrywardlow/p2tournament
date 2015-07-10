@@ -9,7 +9,7 @@ This project implements a PostgreSQL database to keep track of players and match
 
 ### In This Repository
 
-The project consists of two files, a Python module (tournament.py) and a PostgreSQL database file (tournament.sql). In addition, there is a Python module which can be used to test the functionality of this project (tournament_test.py).
+The project consists of two files, a Python module (`tournament.py`) and a PostgreSQL database file (`tournament.sql`). In addition, there is a Python module which can be used to test the functionality of this project (`tournament_test.py`).
 
 ### Using This Project
 
