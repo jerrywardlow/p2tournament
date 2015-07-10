@@ -27,3 +27,8 @@ From a command line, first change into the directory where the project files are
 
 - `cd /home/user/Tournament`
 
+Now that we are in the correct directory, we can open PostgreSQL and load the `tournament.sql` file, which will automatically create the database (after dropping if it already exists) and generate the tables necessary for the project to run.
+
+- `psql`
+- `\i tournament.sql`
+
