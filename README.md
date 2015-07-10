@@ -27,8 +27,14 @@ From a command line, first change into the directory where the project files are
 
 - `cd /home/user/Tournament`
 
-Now that we are in the correct directory, we can open PostgreSQL and load the `tournament.sql` file, which will automatically create the database (after dropping if it already exists) and generate the tables necessary for the project to run.
+Now that we are in the correct directory, we can open PostgreSQL and load the `tournament.sql` file, which will automatically create the database (after dropping if it already exists) and generate the tables necessary for the project to run before connecting to the newly created database:
 
 - `psql`
 - `\i tournament.sql`
+
+Upon succesful initialization and connection, we can exit PostgreSQL
+
+- `\q`
+
+Now that we have generated our `tournament` PostgreSQL database, we can test the functionality of our `tournament.py` module using `tournament_test.py`. From the command line, we will run the `tournament_test.py` module which will start an automated process that checks the functionality of `tournament.py` against our `tournament` database.
 
